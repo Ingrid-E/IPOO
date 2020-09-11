@@ -2,7 +2,7 @@
  👩‍💻Repository for my introduction to object-oriented programming class.  
 
 #Tareas Pendientes:
--[ ] Terminar ejercicios de Ingini
+- [ ] Terminar ejercicios de Ingini
 
 9/11/2020
 
