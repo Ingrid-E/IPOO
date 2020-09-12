@@ -3,7 +3,7 @@
 
 #Tareas Pendientes:
 - [ ] Terminar ejercicios de Ingini
-- [ ] Contar los números pares que existen entre un rango de valores
+- [x] Contar los números pares que existen entre un rango de valores
 
 9/11/2020
 
@@ -85,3 +85,5 @@ Las expresiónes de **incremento** se ejecuta al finalizar cada iteración.
 ## Ejercicios
 
 [Factorial](https://github.com/Ingrid-E/IPOO/tree/master/Factorial)
+
+[Pairs](https://github.com/Ingrid-E/IPOO/tree/master/Pairs)
