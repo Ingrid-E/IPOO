@@ -3,6 +3,7 @@
 
 #Tareas Pendientes:
 - [ ] Terminar ejercicios de Ingini
+- [ ] Contar los números pares que existen entre un rango de valores
 
 9/11/2020
 
@@ -80,3 +81,7 @@ La expresión de **inicialización** se ejecutara al principio del ciclo.
 La expresión de **condición** se ejecutara al principio de cada iteración. Necesita ser true para que se ejecute.
 
 Las expresiónes de **incremento** se ejecuta al finalizar cada iteración.
+
+## Ejercicios
+
+
