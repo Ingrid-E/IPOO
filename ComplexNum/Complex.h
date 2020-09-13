@@ -8,7 +8,10 @@ class Complex {
     public:
     Complex(int num, int num2);
     void NumAndComplex();
-    int sumComplexNum(Complex num);
+    void sumComplexNum(Complex num);
+    void restComplexNum(Complex num);
+    int getNumber();
+    int getComplexNumber();
 };
 
 #endif

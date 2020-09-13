@@ -9,5 +9,6 @@ int main(){
     num.NumAndComplex();  
     num2.NumAndComplex();
     num.sumComplexNum(num2);
+    num.restComplexNum(num2);
 
 }
