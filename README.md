@@ -19,6 +19,10 @@ entonces se continúa con el algoritmo.
 ->Evalúa la expresión de control al principio del ciclo,
 y de nuevo al inicio de cada iteración.
 
+Expresion de control repetitivo basado en los resultados de una expresión lógica.
+
+Proposito: Repetir un bloque de cídog mientras una expresión de control se mantenga verdadera.
+
 Ej:
 
 ``` C++
@@ -61,10 +65,12 @@ restante del algoritmo
 
 ### For
 
+-> Estructura de control repetitivo en programación. En la cual se puede indicar el número máximo de iteraciones.
+
 Ej:
 
 ``` C++
-for(inicialización; condicion; incremento){
+for(inicialización; condicion/control; incremento){
     ...
     Bloque de instrucciónes si se cumple la condición
     ...
