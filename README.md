@@ -104,18 +104,18 @@ Tipo de dato que permite contener/almacenar una seria de valores del mismo tipo.
 
 Son espacios contiguos en memoria, podemos acceder a sus elementos utilizando el nombre del vector, los corchetes y la posición.
 
-[Vector](img/vectoresArray.PNG)
+![Vector](img/vectoresArray.PNG)
 
 **centinela** Se utiliza para indicar el fin del vector.
 En la imagen la centinela es el -1.
 
-[Vector2](img/vectoresArray2.PNG)
+![Vector2](img/vectoresArray2.PNG)
 
 **Importante**
 ¿Que puedo almacenar en vector? **Booleanos, string, char, int, double,float**
 ¿Es lo mismo que un array/arreglo? **Si es lo mismo**
 
-[Vector3](img/vector.PNG)
+![Vector3](img/vector.PNG)
 
 donde esta el 3?
 
@@ -156,7 +156,7 @@ vectorx[2]= 23;
 
 ``` 
 
-[Arrey100](img/arrey100.PNG)
+![Arrey100](img/arrey100.PNG)
 
 i llega maximo a 100. Porque cuando i == 101 porque ahi es cuando para
 
@@ -177,4 +177,6 @@ Array - Vectores
 
 *En C++ no se puede retornar un array desde una funcion,metodo. Toda utilizar **puntero o apuntadores**.
 
-[Array1](img/Array1.PNG)
+![Array1](img/Array1.PNG)
+
+
