@@ -1,5 +1,6 @@
 #include "Decompose.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
 Decompose::Decompose()
@@ -50,10 +51,24 @@ int Decompose::inFactorNumbers(){
                 }
             }
         }
-        //To make sure it doesn't print it in the end.
         if(number >= 2){cout << " * ";}
         
     }while (number>1); 
     
     return 0;
+}
+
+string Decompose::probando(){
+
+    for(int i = 2; number> 1; i++){
+        while(number%i == 0){
+            number = number/i;
+            if(number>=2) {
+                cout << i << " * ";
+            }else {
+                cout << i;
+            }
+        }
+    }
+    return "";
 }

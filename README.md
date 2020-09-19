@@ -93,3 +93,88 @@ Las expresiónes de **incremento** se ejecuta al finalizar cada iteración.
 [Factorial](https://github.com/Ingrid-E/IPOO/tree/master/Factorial)
 
 [Pairs](https://github.com/Ingrid-E/IPOO/tree/master/Pairs)
+
+## Vectores/Arrays
+
+Tipo de dato que permite contener/almacenar una seria de valores del mismo tipo.
+
+-El tamaño es fijo
+-No crece dinámicamente
+-Similar a un vector, son la base para la construcción de vectores.
+
+Son espacios contiguos en memoria, podemos acceder a sus elementos utilizando el nombre del vector, los corchetes y la posición.
+
+[Vector](img/vectoresArray.PNG)
+
+**centinela** Se utiliza para indicar el fin del vector.
+En la imagen la centinela es el -1.
+
+[Vector2](img/vectoresArray2.PNG)
+
+**Importante**
+¿Que puedo almacenar en vector? **Booleanos, string, char, int, double,float**
+¿Es lo mismo que un array/arreglo? **Si es lo mismo**
+
+[Vector3](img/vector.PNG)
+
+donde esta el 3?
+
+vector[1][2] = 3
+
+Que puedo almacenar en vector? 
+
+TIPO_DE_DATO NOMBRE_VARIABLE [TAMAÑO];
+
+Ej
+string vector[5] ={"5","hola","2.7","8,9","adios"}
+        posicion =  0    1      2     3      4
+
+Ej 2:
+
+int vector2[]={1,2,3,4,5,67,23,10,10};  <--Array
+*No se le definio el tamaño.
+
+## Declaración de arreglos.
+
+Crear o declarar un vector de tamaño cualquiera. 
+
+``` C++ 
+
+//Esto no se bebe hacer, si se declara asigno
+int vectorx[3]; //Borrar esto
+vectorx[3]={5,67,23};
+
+``` 
+
+``` C++ 
+
+//Si utilizamos esto
+int vectorx[3]; 
+vectorx[0]= 5;
+vectorx[1]= 67;
+vectorx[2]= 23;
+
+``` 
+
+[Arrey100](img/arrey100.PNG)
+
+i llega maximo a 100. Porque cuando i == 101 porque ahi es cuando para
+
+Este codigo da error 
+
+si se pide la posición 100 da error, porque el valor no existe en el arreglo. 
+
+v2[20][10] --> v2[filas][columnas]
+
+Array - Vectores
+*Un array tiene tamaño fijo, mientras un vector puede ir creciendo.
+
+*En C++ toca pasar un array a un metodo.
+
+*En C++ Se debe usar asignación, no hay forma conveniente para insertar elementos al inicia.
+
+*En C++ no hay una forma convenientepara eliminar elementos en el arreglo.
+
+*En C++ no se puede retornar un array desde una funcion,metodo. Toda utilizar **puntero o apuntadores**.
+
+[Array1](img/Array1.PNG)

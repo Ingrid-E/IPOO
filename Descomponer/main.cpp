@@ -13,16 +13,16 @@ using namespace std;
 int main(){
     //Numbers made in the Decompose class.
     Decompose number;
-    //Set number value in Decompose class to 3, and prints it out decomposed.
-    number.setNumber(3);
-    number.inFactorNumbers();
+    number.setNumber(3); //2 · 2 · 2 · 2 · 5 · 5 
+    cout << number.probando(); 
     cout<<endl;
-     //Set number value in Decompose class to 8, and prints it out decomposed.
-    number.setNumber(8);
-    number.inFactorNumbers();
+    number.setNumber(270); //2 · 3 · 3 · 3 · 5
+    cout << number.probando(); 
     cout<<endl;
-     //Set number value in Decompose class to 216, and prints it out decomposed.
-    number.setNumber(216);
-    number.inFactorNumbers();
+    number.setNumber(300); //2 · 2 · 3 · 5 · 5 
+    cout << number.probando(); 
     cout<<endl;
+
+
+
 }

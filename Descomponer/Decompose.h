@@ -1,5 +1,7 @@
 #ifndef DECOMPOSE_H
 #define DECOMPOSE_H
+#include <string>
+using namespace std;
 
 /**
  * @file Decompose.h
@@ -35,6 +37,8 @@ public:
      * @return int 
      */
     int inFactorNumbers();
+
+    string probando();
 };
 
 #endif

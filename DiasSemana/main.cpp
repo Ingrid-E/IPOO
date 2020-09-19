@@ -21,3 +21,4 @@ int main(){
     daysOfWeek.setNum(numeroDelDia);
     cout << daysOfWeek.WeekDay();
 }
+
