@@ -13,7 +13,7 @@ using namespace std;
 int main(){
     //Numbers made in the Decompose class.
     Decompose number;
-    number.setNumber(3); //2 · 2 · 2 · 2 · 5 · 5 
+    number.setNumber(75); //2 · 2 · 2 · 2 · 5 · 5 
     cout << number.probando(); 
     cout<<endl;
     number.setNumber(270); //2 · 3 · 3 · 3 · 5

@@ -2,7 +2,8 @@
  👩‍💻Repository for my introduction to object-oriented programming class.  
 
 #Tareas Pendientes:
-- [ ] Terminar ejercicios de Ingini
+- [x] Terminar ejercicios de Ingini
+- [ ] Hacer los ejercicios de las diapositivas
 - [x] Contar los números pares que existen entre un rango de valores
 
 9/11/2020
@@ -106,7 +107,7 @@ Son espacios contiguos en memoria, podemos acceder a sus elementos utilizando el
 
 ![Vector](img/vectoresArray.PNG)
 
-**centinela** Se utiliza para indicar el fin del vector.
+**Centinela** Se utiliza para indicar el fin del vector.
 En la imagen la centinela es el -1.
 
 ![Vector2](img/vectoresArray2.PNG)
@@ -121,20 +122,20 @@ donde esta el 3?
 
 vector[1][2] = 3
 
-Que puedo almacenar en vector? 
+**Que puedo almacenar en vector?**
 
 TIPO_DE_DATO NOMBRE_VARIABLE [TAMAÑO];
 
-Ej
+*Ej*
 string vector[5] ={"5","hola","2.7","8,9","adios"}
         posicion =  0    1      2     3      4
 
-Ej 2:
+*Ej 2*:
 
 int vector2[]={1,2,3,4,5,67,23,10,10};  <--Array
 *No se le definio el tamaño.
 
-## Declaración de arreglos.
+### Declaración de arreglos.
 
 Crear o declarar un vector de tamaño cualquiera. 
 
@@ -158,15 +159,16 @@ vectorx[2]= 23;
 
 ![Arrey100](img/arrey100.PNG)
 
-i llega maximo a 100. Porque cuando i == 101 porque ahi es cuando para
+**i** llega maximo a 100. Porque cuando **i** == 101 porque ahi es cuando para
 
 Este codigo da error 
 
-si se pide la posición 100 da error, porque el valor no existe en el arreglo. 
+si se pide la posición 100 da error, porque **el valor no existe en el arreglo.** 
 
 v2[20][10] --> v2[filas][columnas]
 
 Array - Vectores
+
 *Un array tiene tamaño fijo, mientras un vector puede ir creciendo.
 
 *En C++ toca pasar un array a un metodo.
@@ -180,3 +182,8 @@ Array - Vectores
 ![Array1](img/Array1.PNG)
 
 
+**Tipo de dato abstracto** es el de las clases.
+
+Cuando usted declare un vector de elementos, llamara a el constructor cada vez.
+
+##Vector de vectores
