@@ -6,7 +6,7 @@
 using namespace std;
 
 /**
-* @brief Prints out the add,max,min,avg of an array of Numbers using the Numbers class.
+* @brief Prints out the sum,max,min,avg of an array of Numbers using the Numbers class.
 * @date 27-09-2020
 * @author Ingrid Echeverri Montoya (ingrid.echeverri@correounivalle.edu.co)
 * @file main.cpp

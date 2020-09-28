@@ -3,6 +3,7 @@
 #include <iostream>
 using namespace std;
 
+
 Operation::Operation(){
     pivot = 0;
     size = 10000000;
