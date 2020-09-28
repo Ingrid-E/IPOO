@@ -6,11 +6,11 @@ using namespace std;
 
 class Operation{
     private:
-    int numeros[10000000];
+    int numeros[1000];
     int pivot;
     int size;
-    Operation();
     void setSize(int nSize);
+    Operation();
     public:
     Operation(int nSize);
     ~Operation();

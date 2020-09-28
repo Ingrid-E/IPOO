@@ -13,24 +13,25 @@ using namespace std;
 */
 
 int main (){
+cout << fixed << setprecision(1);
 
 int size;
 cin >> size;
-
 Operation numeros(size);
-/*
+
 for(int inicio = 0; inicio<=size; inicio++){
     int number;
     string operacion;
     if(inicio == size){
+        cout<<fixed<<setprecision(1);
         cin >> operacion;
-        numeros.resultado(operacion);
-    }
+        cout << numeros.resultado(operacion) << endl;
+    }else 
     cin >> number;
     numeros.append(number);
 
 };
-*/
+
 }
 
  
