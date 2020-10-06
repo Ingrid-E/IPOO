@@ -15,7 +15,13 @@ int main(){
     cin >> word;
     String myString(word);
     cout << myString.length() << endl;
-    myString.insert('n',1);
+    //myString.insert('n',1);
+    //myString.printString();
+    char word2;
+    cout <<"Poner seguna palabra para comparar y poner . al final de la palabra y dar enter"<< endl;
+    cin >> word2;
+    String secondWord(word2);
+    myString.compare(secondWord);
+    myString.delet(secondWord);
     myString.printString();
-
 }

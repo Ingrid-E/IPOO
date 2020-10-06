@@ -51,6 +51,12 @@ class String{
          * 
          */
         void printString();
+
+        void compare(String secondWord);
+
+        char getWord(int index);
+
+        void delet(String secondWord);
         
 
 };
